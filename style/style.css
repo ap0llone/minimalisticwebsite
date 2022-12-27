@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica" sans-serif;
+}
+body{
+    background-color: #d67229;
+}
+.title h1{
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #000;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+}
+.title a{
+    color: #000;
+    text-decoration: none;
+}
+.title p{
+    letter-spacing: 3px;
+    font-family: OCR A Std, monospace;
+    color: #000;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.paraghraph a{
+    color: #ccc;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+}
+.title2 a{
+    color: #ccc;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1200px) {
+   .title p{
+    font-size: 20px;  
+    letter-spacing: 1px;  
+   }
+   .paraghraph a{
+    font-size: 17px;
+   }
+}

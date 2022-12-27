@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | mehriban</title>
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+<body>
+    <nav>
+        <h2><a href="index.html">𝐦𝐞𝐡𝐫𝐢𝐛𝐚𝐧</a></h2>
+        <ul>
+            <li><a href="index.html">_ HOME</a></li>
+            <li><a href="about.html">_ ABOUT</a></li>
+            <li><a href="works.html">_ WORKS</a></li>
+            <li><a href="contact.html">_ CONTACT ME</a></li>
+        </ul>
+    </nav>
+        <div class="contact-title">
+            <h1>Feedback</h1>
+        </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/c7dbca01f4608f9fc6d8a6b9709f1db9" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- Disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Disable success page -->
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/project6/index.html">
+                    <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+
+                    <input name="email" type="text" class="form-control" placeholder="Your email" required><br>
+
+                    <textarea name="message" class="form-control" cols="30" rows="4" placeholder="Message" required></textarea>
+                    <div class="button">
+                        <button id="send" onclick="message()">Send</button>
+                    </div>
+                </form>
+            </div>
+</body>
+</html>

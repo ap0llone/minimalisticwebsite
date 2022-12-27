@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica" sans-serif;
+}
+body{
+    background-color: #f5f0f0;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    position: fixed;
+}
+nav .logo{
+    width: 40px;
+    margin-left: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+nav ul li{
+    list-style: none;
+    display: block;
+    margin: 0 5px;
+    padding: 10px;
+    font-family: "avenir-lt-w01_85-heavy1475544",sans-serif;;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    margin-right: 20px ;
+    position: relative;
+    font-family: "avenir-lt-w01_85-heavy1475544",sans-serif;;
+    font-weight: 700;
+    transition: all .30s linear;
+}
+nav ul li a:hover{
+    color: #ccc;
+}
+nav h2{
+    font-size: 60px;
+    margin-left: 100px;
+}
+.content{
+    width: 900px;
+    height: 500px;
+    display: block;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-bottom: 140px;
+}
+.content p{
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    font-family: OCR A Std, monospace;;
+    font-size: 35px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.undertext p{
+    font-size: 20px;
+    margin-top: 60px;
+}
